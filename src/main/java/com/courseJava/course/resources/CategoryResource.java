@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/categories")
-public class CategoryResources {
+public class CategoryResource {
 
     @Autowired
     private CategoryService service;
@@ -21,6 +21,7 @@ public class CategoryResources {
     public List<Category> findAll(){
         return service.findAll();
     }
+
     @GetMapping(value = "/{id}")
     public Category findById(@PathVariable Long id){
         return service.findById(id);

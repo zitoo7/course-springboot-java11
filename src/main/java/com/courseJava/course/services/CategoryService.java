@@ -2,7 +2,6 @@ package com.courseJava.course.services;
 
 import com.courseJava.course.entities.Category;
 import com.courseJava.course.repositories.CategoryRepository;
-import com.courseJava.course.resources.CategoryResources;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
